@@ -1,0 +1,8 @@
+#Calculate gross salary of an employee
+
+echo "Enter the basic : "
+read b
+da=$(expr $(expr 75 \* $b) / 100)
+hra=$(expr $(expr 25 \* $b) / 100)
+s=$(expr $b + $(expr $da + $hra))
+echo "Salary : $s"

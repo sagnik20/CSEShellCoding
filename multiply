@@ -1,0 +1,6 @@
+#program to multiply two numbers
+
+echo "Enter two number to multiply"
+read a b
+c=$(expr $a \* $b)
+echo "Multiply  = $c"

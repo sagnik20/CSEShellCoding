@@ -1,0 +1,8 @@
+#Swap two numbers without using 3rd variable
+
+echo "Enter two number : "
+read a b
+a=$(expr $a + $b)
+b=$(expr $a - $b)
+a=$(expr $a - $b)
+echo "a = $a  b = $b"
